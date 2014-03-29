@@ -1,36 +1,35 @@
-
 *[class*="theme-"] {
     .element {
-        -webkit-transform: translateZ(0px);
+        .accelerate-off;
     }
 
-    .type-1, .type-2 { /* Title, Description. */
+    .type-title, .type-description { 
         padding: 0;
     }
 
-    .type-1 { /* Title. */
+    .type-title { 
         font-size: 150%;
         font-weight: bold;
         margin-top: 2vw;
     }
 
-    .type-2 { /* Description. */
+    .type-description { 
         margin-top: 0;
         margin-bottom: 2vw;
     }
 
-    .type-3 { /* Fact. */
+    .type-fact { 
         text-align: left;
 
         .element-inner {
             display: table;
 
-            .fact-left, .fact-right {
+            .fact-primary, .fact-secondary {
                 display: table-cell;
                 vertical-align: top;
             }
 
-            .fact-left {
+            .fact-primary {
                 padding-right: 1.5vw;
 
                 i {
@@ -40,7 +39,7 @@
                 }
             }
 
-            .fact-right {
+            .fact-secondary {
                 .title {
                     display: inline-block;
                 }
@@ -56,7 +55,7 @@
         }
     }
 
-    .type-4 { /* Image. */
+    .type-image { 
         img {
             border: 1px solid transparent;
             margin: 0;
@@ -74,7 +73,7 @@
         }
     }
 
-    .type-5 { /* Map. */
+    .type-map { 
         .element-inner > div {
             background: transparent !important;
 
@@ -95,7 +94,7 @@
         }
     }
 
-    .type-7 { /* Table. */
+    .type-table { 
         table.table {
             border-collapse: collapse;
             margin: 0;
@@ -141,7 +140,7 @@
         }
     }
 
-    .type-8 { /* Figure. */
+    .type-figure { 
         ul.figure-row {
             overflow: hidden;
             white-space: nowrap;
@@ -160,7 +159,7 @@
                     padding-top: 0;
                     text-align: center;
 
-                    &.no-accent {
+                    &.accent-none {
                         color: #8A8A8A;
                     }
                 }
@@ -182,7 +181,7 @@
         }
     }
 
-    .type-9 { /* Line. */
+    .type-line { 
         text-align: left;
 
         .line {
@@ -192,14 +191,14 @@
             outline: 0;
             display: block;
 
-            &.line-type-0 {
+            &.line-type-horizontal {
                 height: 1px;
                 width: 100%;
                 margin-top: 1vw;
                 margin-bottom: 1vw;
             }
 
-            &.line-type-1 {
+            &.line-type-vertical {
                 width: 1px;
                 height: 100%;
             }

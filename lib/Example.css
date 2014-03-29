@@ -5,13 +5,13 @@
   color: #505050;
   text-shadow: 0 1px 3px #fff;
 }
-.theme-example .accent {
+.theme-example .accent-1 {
   color: red;
 }
-.theme-example .accent.background {
+.theme-example .accent-1.background {
   background-color: red;
 }
-.theme-example .accent.border {
+.theme-example .accent-1.border {
   border-color: red;
 }
 .theme-example .accent-2 {
@@ -41,42 +41,42 @@
 .theme-example .accent-4.border {
   border-color: gray;
 }
-.theme-example .type-3 .fact-left {
+.theme-example .type-fact .fact-left {
   padding-top: 0.5vw;
   padding-right: 1.2vw;
 }
-.theme-example .type-3 .fact-right .title {
+.theme-example .type-fact .fact-right .title {
   padding: 0;
   background: transparent;
   height: 5vw;
   line-height: 4vw;
 }
-.theme-example .type-3 .fact-right .title .quantity,
-.theme-example .type-3 .fact-right .title .measure {
+.theme-example .type-fact .fact-right .title .quantity,
+.theme-example .type-fact .fact-right .title .measure {
   font-weight: bold;
   font-size: 3vw;
 }
-.theme-example .type-3 .fact-right .title .quantity {
+.theme-example .type-fact .fact-right .title .quantity {
   font-size: 4vw;
 }
-.theme-example .type-3 .fact-right .title .measure {
+.theme-example .type-fact .fact-right .title .measure {
   color: #505050;
 }
-.theme-example .type-3 .fact-right .description {
+.theme-example .type-fact .fact-right .description {
   font-size: 85%;
 }
-.theme-example .type-5 .element-inner path {
+.theme-example .type-map .element-inner path {
   stroke: #fff;
 }
-.theme-example .type-5 .element-inner path[fill="white"] {
+.theme-example .type-map .element-inner path[fill="white"] {
   fill: #8A8A8A;
 }
-.theme-example .type-7 table.table tr th {
+.theme-example .type-table table.table tr th {
   border-bottom: 1px solid #ddd;
 }
-.theme-example .type-7 table.table tr.mark td {
+.theme-example .type-table table.table tr.mark td {
   color: #FC4B50;
 }
-.theme-example .type-9 .line {
+.theme-example .type-line .line {
   background-color: #ddd;
 }

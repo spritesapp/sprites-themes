@@ -6,27 +6,27 @@
 }
 
 @mixin accents($accent1, $accent2, $accent3, $accent4) {
-    .accent {
+    .accent-1 {
         color: $accent1;
-        &.background { background-color: $accent1; }
-        &.border { border-color: $accent1; }
+        &.accent-background { background-color: $accent1; }
+        &.accent-border { border-color: $accent1; }
     }
 
     .accent-2 {
         color: $accent2;
-        &.background { background-color: $accent2; }
-        &.border { border-color: $accent2; }
+        &.accent-background { background-color: $accent2; }
+        &.accent-border { border-color: $accent2; }
     }
 
     .accent-3 {
         color: $accent3;
-        &.background { background-color: $accent3; }
-        &.border { border-color: $accent3; }
+        &.accent-background { background-color: $accent3; }
+        &.accent-border { border-color: $accent3; }
     }
 
     .accent-4 {
         color: $accent4;
-        &.background { background-color: $accent4; }
-        &.border { border-color: $accent4; }
+        &.accent-background { background-color: $accent4; }
+        &.accent-border { border-color: $accent4; }
     }
 }
