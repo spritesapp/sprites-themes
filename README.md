@@ -5,4 +5,10 @@ Custom themes for Sprites
 
 The purpose of this repository is to allow web-designers to create their own themes for Sprites. All you need to do is to fork this repository, add a new theme and then submit a pull request.
 
-Check out our [Wiki](https://github.com/spritesapp/sprites-themes/wiki/Introduction) in order to get started with custom theme creation. If you'd like to get in touch with us, the ["Feedback"](https://github.com/spritesapp/sprites-themes/wiki/Your-feedback) section has all the relevant information (or you can just use the form at [spritesapp.com/feedback](https://spritesapp.com/feedback)).
+- [Introduction](https://github.com/spritesapp/sprites-themes/wiki/Introduction)
+- [Slide layout and composition](https://github.com/spritesapp/sprites-themes/wiki/Slide-layout-and-composition)
+- [Element types](https://github.com/spritesapp/sprites-themes/wiki/Element-types)
+- [Testing your theme](https://github.com/spritesapp/sprites-themes/wiki/Testing-your-theme)
+- [Tips and recommendations](https://github.com/spritesapp/sprites-themes/wiki/Tips-and-recommendations)
+- [Your feedback](https://github.com/spritesapp/sprites-themes/wiki/Your-feedback)
+
