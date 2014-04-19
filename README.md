@@ -12,3 +12,4 @@ The purpose of this repository is to allow web-designers to create their own the
 - [Tips and recommendations](https://github.com/spritesapp/sprites-themes/wiki/Tips-and-recommendations)
 - [Your feedback](https://github.com/spritesapp/sprites-themes/wiki/Your-feedback)
 
+You can also [use JavaScript](https://github.com/spritesapp/sprites-sdk) with Sprites.
