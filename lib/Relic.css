@@ -1,0 +1,236 @@
+.theme-relic {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8vw;
+  color: #0e0e0e;
+  background-color: #fff;
+  background-color: #000000;
+  font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
+  font-size: 2vw;
+  color: #70cbd2;
+}
+.theme-relic .accent-1 {
+  color: #70cbd2;
+}
+.theme-relic .accent-1.accent-background {
+  background-color: #70cbd2;
+}
+.theme-relic .accent-1.accent-border {
+  border-color: #70cbd2;
+}
+.theme-relic .accent-2 {
+  color: #e4695a;
+}
+.theme-relic .accent-2.accent-background {
+  background-color: #e4695a;
+}
+.theme-relic .accent-2.accent-border {
+  border-color: #e4695a;
+}
+.theme-relic .accent-3 {
+  color: #fbe1ae;
+}
+.theme-relic .accent-3.accent-background {
+  background-color: #fbe1ae;
+}
+.theme-relic .accent-3.accent-border {
+  border-color: #fbe1ae;
+}
+.theme-relic .accent-4 {
+  color: #358a9a;
+}
+.theme-relic .accent-4.accent-background {
+  background-color: #358a9a;
+}
+.theme-relic .accent-4.accent-border {
+  border-color: #358a9a;
+}
+.theme-relic .stack-top > li.stack-item:first-child {
+  height: 9vw;
+}
+.theme-relic .stack-top > li.stack-item:first-child .type-title {
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.theme-relic .stack-top > li.stack-item:first-child .type-title .element-inner {
+  padding: 0.5vw;
+}
+.theme-relic .type-text.text-type-quote {
+  border-top: 8px solid #358a9a;
+  border-bottom: 1px solid #ffffff;
+  padding: 3vw 2vw;
+}
+.theme-relic .type-text.text-type-quote .element-outer {
+  padding: 1vw;
+}
+.theme-relic .type-text.text-type-quote .element-outer .quote-text {
+  text-align: left;
+  color: #ffffff;
+}
+.theme-relic .type-text.text-type-quote .element-outer .quote-signature {
+  text-align: right;
+  font-size: 75%;
+  margin-top: 1.5vw;
+}
+.theme-relic .type-fact {
+  padding: 3vw 2vw;
+  margin-bottom: 3vw;
+  width: 14vw;
+  min-height: 10vw;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.theme-relic .type-fact .fact-primary {
+  padding: 0 !important;
+  display: block !important;
+  margin-bottom: 1.5vw;
+}
+.theme-relic .type-fact .fact-primary i {
+  width: 4vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.theme-relic .type-fact .fact-secondary {
+  display: block !important;
+  text-align: center;
+}
+.theme-relic .type-fact .fact-secondary .title {
+  background: transparent;
+  font-weight: bold;
+  overflow: hidden;
+  height: 4vw;
+  line-height: 4vw;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+.theme-relic .type-fact .fact-secondary .description {
+  font-size: 75%;
+  color: #ffffff;
+}
+.theme-relic .type-map .element-inner path {
+  stroke: #ffffff;
+}
+.theme-relic .type-map .element-inner path[fill="white"] {
+  fill: #000000;
+  stroke: #358a9a;
+  stroke-width: 2;
+}
+.theme-relic .type-table table.table {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.theme-relic .type-table table.table tr th,
+.theme-relic .type-table table.table tr td {
+  padding: 2vw !important;
+}
+.theme-relic .type-table table.table tr th {
+  font-weight: normal;
+  background-color: #358a9a;
+  color: #ffffff;
+}
+.theme-relic .type-table table.table tr.mark td {
+  color: #e4695a;
+}
+.theme-relic .type-table table.table tr:nth-child(odd) {
+  background: #e9edee;
+}
+.theme-relic .type-table table.table tr:nth-child(even) {
+  background: #ffffff;
+}
+.theme-relic .type-figure ul.figure-row li i.accent-none {
+  color: #ffffff;
+}
+.theme-relic .type-line .line {
+  height: 2px;
+  background-color: #358a9a;
+}
+.theme-relic .type-progress {
+  font-weight: bold;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  width: 35.6vw !important;
+}
+.theme-relic .type-progress .progress-bars > li {
+  width: 33vw !important;
+}
+.theme-relic .type-progress .progress-bar .progress-bar-background {
+  padding: 0.5vw;
+  height: 5vw !important;
+}
+.theme-relic .type-progress .progress-percentage {
+  position: absolute;
+  margin-top: -3.5vw;
+  margin-left: 1.5vw;
+  font-size: 75%;
+  color: #ffffff;
+}
+.theme-relic .type-progress .progress-description {
+  font-size: 75%;
+  margin-top: -3.5vw;
+  color: #ffffff;
+  float: right;
+  margin-right: -2vw;
+}
+.theme-relic .type-timeline .bar {
+  border-radius: 0px !important;
+}
+.theme-relic .type-timeline .label {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.theme-relic .type-timeline .tail {
+  top: 50% !important;
+  width: 67% !important;
+  border-bottom: #ffffff;
+}
+.theme-relic .type-timeline .description {
+  top: 50% !important;
+  margin-top: -3.5vw;
+}
+.theme-relic .type-widget {
+  background-color: #358a9a;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.theme-relic .type-callout .tail {
+  border-color: #358a9a;
+}
+.theme-relic .type-callout .callout-text {
+  background-color: #000000;
+  border-color: #70cbd2;
+  color: #ffffff;
+  width: 12vw !important;
+}
+.theme-relic .type-callout.orientation-right .callout-text,
+.theme-relic .type-callout.orientation-bottomright .callout-text,
+.theme-relic .type-callout.orientation-topright .callout-text {
+  border-left: 1px solid #358a9a;
+}
+.theme-relic .type-callout.orientation-left .callout-text,
+.theme-relic .type-callout.orientation-bottomleft .callout-text,
+.theme-relic .type-callout.orientation-topleft .callout-text {
+  border-right: 1px solid #358a9a;
+}
+.theme-relic .type-callout.orientation-top .callout-text {
+  border-bottom: 1px solid #358a9a;
+}
+.theme-relic .type-callout.orientation-bottom .callout-text {
+  border-top: 1px solid #358a9a;
+}
