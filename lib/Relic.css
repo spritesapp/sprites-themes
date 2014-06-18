@@ -8,6 +8,11 @@
   font-size: 2vw;
   color: #70cbd2;
 }
+
+.theme-relic .high-contrast {
+  color: #fff;
+}
+
 .theme-relic .accent-1 {
   color: #70cbd2;
 }

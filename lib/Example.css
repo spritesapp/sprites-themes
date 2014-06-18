@@ -5,6 +5,9 @@
   color: #505050;
   text-shadow: 0 1px 3px #fff;
 }
+.theme-example .high-contrast {
+  color: #505050;
+}
 .theme-example .accent-1 {
   color: red;
 }
