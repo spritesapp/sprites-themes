@@ -125,6 +125,21 @@
   stroke: #358a9a;
   stroke-width: 2;
 }
+.theme-relic .type-map.map-color-accent1 .element-inner path[fill="white"] {
+  fill: #70cbd2;
+}
+
+.theme-relic .type-map.map-color-accent2 .element-inner path[fill="white"] {
+  fill: #e4695a;
+}
+
+.theme-relic .type-map.map-color-accent3 .element-inner path[fill="white"] {
+  fill: #fbe1ae;
+}
+
+.theme-relic .type-map.map-color-accent4 .element-inner path[fill="white"] {
+  fill: #358a9a;
+}
 .theme-relic .type-table table.table {
   font-weight: normal;
   text-transform: uppercase;
