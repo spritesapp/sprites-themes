@@ -2,7 +2,6 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8vw;
   color: #0e0e0e;
-  background-color: #fff;
   background-color: #000000;
   font-family: "Gotham A", "Gotham B", "Helvetica", sans-serif;
   font-size: 2vw;
@@ -229,28 +228,17 @@
   font-weight: bold;
   border-radius: 5px;
 }
-.theme-relic .type-callout .tail {
-  border-color: #358a9a;
-}
+
 .theme-relic .type-callout .callout-text {
-  background-color: #000000;
-  border-color: #70cbd2;
-  color: #ffffff;
-  width: 12vw !important;
+  border: 1px solid #358a9a;
+  background: #121212;
 }
-.theme-relic .type-callout.orientation-right .callout-text,
-.theme-relic .type-callout.orientation-bottomright .callout-text,
-.theme-relic .type-callout.orientation-topright .callout-text {
-  border-left: 1px solid #358a9a;
+
+.theme-relic .type-callout .tail-corner {
+  background: #000000;
 }
-.theme-relic .type-callout.orientation-left .callout-text,
-.theme-relic .type-callout.orientation-bottomleft .callout-text,
-.theme-relic .type-callout.orientation-topleft .callout-text {
-  border-right: 1px solid #358a9a;
-}
-.theme-relic .type-callout.orientation-top .callout-text {
-  border-bottom: 1px solid #358a9a;
-}
-.theme-relic .type-callout.orientation-bottom .callout-text {
-  border-top: 1px solid #358a9a;
+
+.theme-relic .type-callout .tail-vertical, 
+.theme-relic .type-callout .tail-horizontal {
+  background: #358a9a;
 }
