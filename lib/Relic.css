@@ -8,6 +8,10 @@
   color: #70cbd2;
 }
 
+.theme-relic .grid, .theme-relic .grid div {
+  border-color: #464646 !important;
+}
+
 .theme-relic .high-contrast {
   color: #fff;
 }
