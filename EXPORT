@@ -13,7 +13,7 @@
 # Please note that the above won't make your theme load when you publish     *
 # your infographic, it's only for development purposes.                      *
 #                                                                            *
-#----------------------------------------------------------------------------* #                                                                            *
+#----------------------------------------------------------------------------* 
 # Format: [file_name] [!force]                                               *
 #                                                                            *
 # Where "file_name" is the name of the resulting CSS file to be exported.    *
@@ -26,3 +26,4 @@
 # **************************************************************************** 
 
 Relic.css
+Stanford.css

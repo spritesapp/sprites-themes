@@ -1,0 +1,175 @@
+.theme-stanford {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8vw;
+  color: #0e0e0e;
+  background-color: #fff;
+  font-size: 2.1vw;
+  border: none;
+  border-top: 0.5vw solid #a80532;
+}
+.theme-stanford .accent-1 {
+  color: #a80532;
+}
+.theme-stanford .accent-1.accent-background {
+  background-color: #a80532;
+}
+.theme-stanford .accent-1.accent-border {
+  border-color: #a80532;
+}
+.theme-stanford .accent-2 {
+  color: #006e53;
+}
+.theme-stanford .accent-2.accent-background {
+  background-color: #006e53;
+}
+.theme-stanford .accent-2.accent-border {
+  border-color: #006e53;
+}
+.theme-stanford .accent-3 {
+  color: #e98300;
+}
+.theme-stanford .accent-3.accent-background {
+  background-color: #e98300;
+}
+.theme-stanford .accent-3.accent-border {
+  border-color: #e98300;
+}
+.theme-stanford .accent-4 {
+  color: #4d4f53;
+}
+.theme-stanford .accent-4.accent-background {
+  background-color: #4d4f53;
+}
+.theme-stanford .accent-4.accent-border {
+  border-color: #4d4f53;
+}
+.theme-stanford .stack-meta .type-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  color: #a80532;
+  margin-top: 1.2vw !important;
+  margin-bottom: 0 !important;
+}
+.theme-stanford .stack-meta .type-description {
+  font-size: 75%;
+  color: #494949;
+}
+.theme-stanford .type-fact {
+  border: 1px solid #ccc;
+  border-radius: 2vw 0;
+  padding: 0;
+  overflow: hidden;
+  background: #F3F3F3;
+}
+.theme-stanford .type-fact .fact-primary {
+  padding-top: 1.2vw;
+  padding-right: 1.2vw;
+}
+.theme-stanford .type-fact .fact-secondary .title {
+  padding: 0.1vw 2vw;
+  display: block !important;
+  color: #fff;
+}
+.theme-stanford .type-fact .fact-secondary .title .quantity {
+  font-weight: bold;
+  font-size: 4vw;
+}
+.theme-stanford .type-fact .fact-secondary .description {
+  font-size: 75%;
+  color: #4D4F53;
+  padding: 1vw 2vw;
+  padding-top: 1.5vw;
+  text-shadow: 0 1px 3px #ffffff;
+}
+.theme-stanford .type-callout .callout-text {
+  background: #4D4F53;
+  color: #fff;
+  border: none;
+  padding: 0.75vw 2vw !important;
+  line-height: 135% !important;
+}
+.theme-stanford .type-callout .tail-corner {
+  background-color: #fff;
+}
+.theme-stanford .type-callout .tail-vertical,
+.theme-stanford .type-callout .tail-horizontal {
+  background: #4D4F53;
+}
+.theme-stanford .type-map .element-inner path {
+  stroke: #fff;
+}
+.theme-stanford .type-map .element-inner path[fill="white"] {
+  fill: #bababa;
+}
+.theme-stanford .type-map.map-color-accent1 .element-inner path[fill="white"] {
+  fill: #a80532;
+}
+.theme-stanford .type-map.map-color-accent2 .element-inner path[fill="white"] {
+  fill: #006e53;
+}
+.theme-stanford .type-map.map-color-accent3 .element-inner path[fill="white"] {
+  fill: #E98300;
+}
+.theme-stanford .type-map.map-color-accent4 .element-inner path[fill="white"] {
+  fill: #4D4F53;
+}
+.theme-stanford .type-figure ul.figure-row li i.accent-none {
+  color: #bababa;
+}
+.theme-stanford .type-line .line {
+  background-color: #ccc;
+}
+.theme-stanford .type-table table.table {
+  border: 1px solid #ccc;
+}
+.theme-stanford .type-table table.table tr th,
+.theme-stanford .type-table table.table tr td {
+  padding: 0.5vw 1vw !important;
+}
+.theme-stanford .type-table table.table tr th {
+  text-shadow: none;
+  color: #a80532;
+  font-weight: normal !important;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid #ccc;
+}
+.theme-stanford .type-table table.table tr.mark td {
+  color: #E98300;
+  font-weight: bold;
+  text-shadow: none;
+}
+.theme-stanford .type-progress .progress-bar .progress-bar-background {
+  padding: 0.5vw;
+  background-color: #F3F3F3;
+}
+.theme-stanford .type-progress .progress-bar .progress-bar-percentage {
+  display: block !important;
+  padding-left: 1.5vw !important;
+  font-size: 75%;
+  color: #4D4F53;
+}
+.theme-stanford .type-progress .progress-percentage {
+  display: none;
+}
+.theme-stanford .type-timeline .description {
+  font-size: 75%;
+  background-color: #fff;
+}
+.theme-stanford .type-timeline .label {
+  color: #bababa;
+}
+.theme-stanford .type-timeline.orientation-horizontal .description {
+  left: 0 !important;
+  right: 0 !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+  text-align: center;
+  top: -2vw;
+  padding: 0 !important;
+  font-size: 70% !important;
+}
+.theme-stanford .type-timeline.orientation-horizontal .label {
+  margin-top: 0.5vw;
+}
